@@ -1,0 +1,58 @@
+/* ---------------------
+    共通設定
+   --------------------- */
+
+html{
+  font-size: 62.5%;
+}
+
+h1{
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+body{
+  width: 95%;
+  margin: auto;
+}
+
+header{
+  padding: 1rem 0;
+  border-bottom: solid 1px;
+}
+
+main{
+  padding: 2rem 0;
+}
+#result p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+#result span{
+  font-size: 1.6rem;
+  color: chocolate;
+}
+
+#content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item_wrapper{
+  width: 20rem;
+  padding: 2rem;
+}
+
+.item_wrapper p{
+  font-size: 1.2rem;
+  overflow: wrap;
+  line-height: 1.8rem;
+}
+.item_title{
+  font-size: 1.8rem!important;
+  line-height: 2rem!important;
+}
+
+
+
